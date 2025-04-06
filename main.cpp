@@ -288,8 +288,8 @@ void display_legend(cursor_t cursor, gameState_t gameState) {
     textbackground(BLACK);
     textcolor(WHITE);
     gotoxy(x, y);
-    cputs("Mateusz Blach 193174");
-    gotoxy(x, y + line++);
+    //cputs("Mateusz Blach 193174");
+    //gotoxy(x, y + line++);
     cputs("ARROWS = move cursor");
     gotoxy(x, y + line++);
     cputs("ENTER = confirm");
@@ -333,7 +333,7 @@ void display_legend(cursor_t cursor, gameState_t gameState) {
     putch(' ');
     textcolor(WHITE);
     line++;
-    gotoxy(x, y + line++);
+    /*gotoxy(x, y + line++);
     cputs("Sections:");
     gotoxy(x, y + line++);
     textcolor(LIGHTGREEN);
@@ -356,7 +356,7 @@ void display_legend(cursor_t cursor, gameState_t gameState) {
     textcolor(8);
     cputs("(m) ");
     textcolor(8);
-    cputs("(n) ");
+    cputs("(n) ");*/
 }
 
 void get_size(board_t* pointer) { //get board size from player
@@ -659,7 +659,7 @@ int main() {
     Conio2_Init();
 #endif
 
-    settitle("Mateuszek, TESTING");
+    settitle("GO Game");
     _setcursortype(_NOCURSOR); //hide cursor
 
     bool play = 0;
