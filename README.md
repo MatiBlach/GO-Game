@@ -8,7 +8,7 @@
 
 > _Below: screenshot from the game_
 
-![GO Game screenshot](./GoGame1.png)
+![GO Game screenshot](./GoGame1.png?)
 
 ---
 
